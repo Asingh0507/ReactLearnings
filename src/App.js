@@ -1,11 +1,15 @@
 import './App.css';
+import Card from './Card';
 import CounterWithRef from './Component1';
 import CounterWithState from './Component2';
+import Navbar from './Navbar';
 
 function App() {
   return (
     <div className="App">
-      <CounterWithState/>
+    <Navbar/>
+    <Card/>
+    {/* <CounterWithState/> */}
     </div>
   );
 }
